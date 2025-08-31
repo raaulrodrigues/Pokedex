@@ -41,13 +41,12 @@ main{
   top: 54.5%;
   right: 27%;
   
-  /* Tente valores menores, principalmente o do meio (vw) ou o máximo */
   font-size: clamp(8px, 4vw, 19px); 
 }
 
 .pokemon_name{
     color: #3a444d;
-    text-transform: capitalize; /*deixar a primeira letra em maiusculo*/
+    text-transform: capitalize;
     overflow-wrap: break-word;
     word-break: break-word;
 }
