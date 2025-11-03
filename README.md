@@ -1,52 +1,55 @@
 # 📖 Pokedex
 
-Um projeto de Pokedex desenvolvido em React e TypeScript, consumindo a [PokeAPI](https://pokeapi.co/) para exibir informações detalhadas sobre Pokémon.
+Um projeto de Pokedex desenvolvido com **HTML, CSS e JavaScript puros**, consumindo a [PokeAPI](https://pokeapi.co/) para exibir informações sobre Pokémon.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
 ## 🎯 Sobre o Projeto
 
-O objetivo principal deste projeto foi construir uma interface de usuário moderna e responsiva para interagir com a PokeAPI. A aplicação permite que os usuários naveguem por uma lista de Pokémon, pesquisem por nomes específicos e visualizem detalhes, como tipos e estatísticas de batalha.
+O objetivo principal deste projeto foi construir uma interface web interativa para a PokeAPI sem o uso de frameworks, focando nos fundamentos do desenvolvimento web.
 
-Este projeto foi fundamental para praticar conceitos de:
-* Consumo de APIs REST (utilizando Axios).
-* Gerenciamento de estado e componentização com React.
-* Tipagem estática com TypeScript.
-* Estilização de componentes com Styled-Components.
+A aplicação permite que os usuários naveguem por uma lista de Pokémon e vejam seus detalhes. Este projeto foi um exercício prático para solidificar conceitos de:
+
+* Manipulação direta do DOM (Document Object Model).
+* Requisições assíncronas (Fetch API) para consumir uma API REST.
+* Estruturação de projeto com HTML5 semântico.
+* Estilização e responsividade com CSS3 (utilizando Grid/Flexbox).
 
 ## ✨ Funcionalidades
 
-* **Listagem de Pokémon:** Navegação paginada pela Pokedex nacional.
-* **Busca Rápida:** Filtro para encontrar Pokémon por nome.
-* **Página de Detalhes:** Visualização de tipos, estatísticas (HP, Ataque, Defesa, etc.) e *sprites* (imagens).
-* **Design Responsivo:** Adaptável para visualização em dispositivos móveis e desktop.
+* **Listagem de Pokémon:** Carregamento e exibição de Pokémon a partir da API.
+* **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela (mobile e desktop).
+* **Carregamento Dinâmico:** Novos Pokémon são carregados conforme a navegação (se aplicável, ex: botão "Carregar Mais").
 
 ## 💻 Tecnologias Utilizadas
 
-* **React:** Biblioteca principal para a construção da interface.
-* **TypeScript:** Para adicionar tipagem estática e segurança ao código.
-* **Styled-Components:** Para estilização CSS-in-JS, permitindo a criação de componentes de UI dinâmicos e encapsulados.
-* **Axios:** Cliente HTTP baseado em *Promises* para realizar as requisições à PokeAPI.
+* **HTML5:** Para a estrutura semântica da aplicação.
+* **CSS3:** Para estilização, layout (Flexbox/Grid) e responsividade.
+* **JavaScript (ES6+):** Para a lógica da aplicação, manipulação do DOM e requisições à API.
+* **Fetch API:** Para realizar as chamadas assíncronas à PokeAPI.
 * **PokeAPI V2:** A fonte de dados para todas as informações dos Pokémon.
 
-## 🚀 Rodando o Projeto
+## 🚀 Como Visualizar
 
-Se desejar executar este projeto localmente, siga os passos abaixo:
+Este projeto é composto por arquivos estáticos (HTML, CSS, JS) e pode ser executado diretamente no navegador.
 
-```bash
-# 1. Clonar o repositório
-git clone [https://github.com/raaulrodrigues/Pokedex.git](https://github.com/raaulrodrigues/Pokedex.git)
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/raaulrodrigues/Pokedex.git](https://github.com/raaulrodrigues/Pokedex.git)
+    ```
+2.  Acesse a pasta do projeto:
+    ```bash
+    cd Pokedex
+    ```
+3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
-# 2. Acessar a pasta do projeto
-cd Pokedex
+## 📜 Licença
 
-# 3. Instalar as dependências
-npm install
+Este projeto está sob a licença MIT.
 
-# 4. Executar a aplicação
-npm run dev
+---
+Desenvolvido por **Raul Rodrigues**
